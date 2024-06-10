@@ -27,6 +27,7 @@ import DrawingPolygonsMapBox from './MapBoxMaps/DrawingPolygonsMapBox';
 import DrawingPolygonsMapBoxWithFillPattern from './MapBoxMaps/DrawingPolygonsMapBoxWithFillPattern';
 import IndoorMapBoxMapWithMarkerBoundWithCoordinates from './MapBoxMaps/IndoorMapBoxMapWithMarkerBoundWithCoordinates';
 import IndoorLeafLetMapWithMarkerBoundWithCoordinates from './LeafLetMaps/IndoorLeafLetMapWithMarkerBoundWithCoordinates';
+import MapsWithSearchBar from './GoogleMaps/MapsWithSearchBar';
 
 function App() {
   return (
@@ -60,7 +61,8 @@ function App() {
       {/* <DrawingPolygons /> */}
       {/* <DrawingPolygonsWithDimensions /> */}
       {/* <IndoorMapWithMarker /> */}
-      <IndoorMapWithMarkerBoundWithCoordinates />
+      {/* <IndoorMapWithMarkerBoundWithCoordinates /> */}
+      <MapsWithSearchBar />
       {/* <DrawingPolygonWithFillPattern /> */}
 
 
