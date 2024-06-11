@@ -28,6 +28,9 @@ import DrawingPolygonsMapBoxWithFillPattern from './MapBoxMaps/DrawingPolygonsMa
 import IndoorMapBoxMapWithMarkerBoundWithCoordinates from './MapBoxMaps/IndoorMapBoxMapWithMarkerBoundWithCoordinates';
 import IndoorLeafLetMapWithMarkerBoundWithCoordinates from './LeafLetMaps/IndoorLeafLetMapWithMarkerBoundWithCoordinates';
 import MapsWithSearchBar from './GoogleMaps/MapsWithSearchBar';
+import MapBoxMapWithSearchBar from './MapBoxMaps/MapBoxMapWithSearchBar';
+import MapToMarkPoint from './GoogleMaps/MapToMarkPoint';
+import MapBoxMapToMarkPoint from './MapBoxMaps/MapBoxMapToMarkPoint';
 
 function App() {
   return (
@@ -47,7 +50,7 @@ function App() {
 
 
 
-      {/* <Router>
+      <Router>
         <Routes>
           <Route path="/" element={<MapDashboard />} />
           <Route path="/ReactLeafletDemo" element={<ReactLeafletDemo />} />
@@ -55,15 +58,16 @@ function App() {
           <Route path="/MapBoxDemo" element={<MapBoxDemo />} />
           <Route path="/MapBoxTiles" element={<MapBoxTiles />} />
         </Routes>
-      </Router> */}
+      </Router>
 
 
       {/* <DrawingPolygons /> */}
       {/* <DrawingPolygonsWithDimensions /> */}
       {/* <IndoorMapWithMarker /> */}
       {/* <IndoorMapWithMarkerBoundWithCoordinates /> */}
-      <MapsWithSearchBar />
+      {/* <MapsWithSearchBar /> */}
       {/* <DrawingPolygonWithFillPattern /> */}
+      {/* <MapToMarkPoint /> */}
 
 
       {/* <IndoorLeafLetMapWithMarkerBoundWithCoordinates /> */}
@@ -72,6 +76,8 @@ function App() {
       {/* <DrawingPolygonsMapBox /> */}
       {/* <DrawingPolygonsMapBoxWithFillPattern /> */}
       {/* <IndoorMapBoxMapWithMarkerBoundWithCoordinates /> */}
+      {/* <MapBoxMapWithSearchBar /> */}
+      {/* <MapBoxMapToMarkPoint /> */}
     </div>
   );
 }
